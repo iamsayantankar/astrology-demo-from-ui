@@ -1,0 +1,87 @@
+   .void-section {
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  /* Title Styling */
+  .void-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+  }
+  
+  /* Reflection Effect */
+  .reflection1,
+  .reflection2 {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -1.5rem;
+    opacity: 0.8;
+  }
+  
+  /* Right Side Description */
+  .void-description {
+    margin-top: 2rem;
+  }
+  
+  .theme-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .theme-description {
+    font-size: 1rem;
+    color: #eee;
+  }
+  
+  /* Subscription Form */
+  .subscription-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    margin-right: 1rem;
+    background-color: white;
+    color: #84054f;
+    opacity: 0.8;
+  }
+  
+  .subscribe-btn {
+    background-color: #84054f !important;
+    color: #fff;
+    border-radius: 20px !important;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .void-title {
+      font-size: 3.5rem;
+    }
+  
+    .theme-title {
+      font-size: 1.2rem;
+    }
+  
+    .theme-description {
+      font-size: 0.9rem;
+    }
+  
+    .email-input {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+  }
+  

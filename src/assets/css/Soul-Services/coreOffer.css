@@ -1,0 +1,48 @@
+.card{
+  position: relative;
+}
+.circle-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -108px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.circle-icon::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  width: 2px;
+  height: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.circle-icon:first-child::before {
+  display: none; /* Remove the line for the first circle */
+}
+
+.circle-icon:last-child::before {
+  display: none; /* Remove the line for the last circle */
+}
+
+.card-body p {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cards-container{
+  gap: 48px;
+  margin-top: 16px;
+}
+
+@media (max-width : 728px) {
+  
+  .cards-container{
+    gap:136px;
+    margin-top: 148px;
+  }
+}

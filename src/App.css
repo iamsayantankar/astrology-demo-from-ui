@@ -1,0 +1,13 @@
+#root{
+    background-color: #84054F !important;
+    background-image: url("./assets/Images/desktop-bg.webp");
+    background-size: cover;
+    margin : 0px;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width : 768px) {
+/* #root{
+    background-image: url("/Images/mobile-bg.svg");
+    } */
+}
